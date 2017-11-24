@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		
+		<title>helloink | Welcome</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	
+	<body>
+		<header> 
+			<div class="container">
+				<div id="branding">
+					<h1>helloink</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="showcase">
+			<div class="container">
+				<h1>affordable ink at helloink</h1>
+				<p> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean et libero dolor. Phasellus massa urna, 
+				lobortis congue tempus ac, imperdiet nec tellus. 
+				Nulla volutpat eu metus tempor tristique. 
+				Maecenas placerat diam sit amet dui malesuada, 
+				nec varius risus posuere. Morbi aliquet sit amet ex a convallis. 
+				Donec odio velit, dignissim gravida hendrerit eget, ultricies eget metus. 
+				Fusce et molestie massa.
+				</p>
+			</div>
+		</section>
+		<section id="newsletter">
+			<div class="container">
+				<h1>Subscribe to our newsletter lad</h1>
+				<form>
+					<input type="email" placeholder="Enter email..">
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="boxes">
+			<div class="container">
+				<div class="box">
+					<img src=".\helloink\img">
+					<h3>Html Markup</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean et libero dolor. Phasellus massa urna, 
+				lobortis congue tempus ac, imperdiet nec tellus. 
+				Nulla volutpat eu metus tempor tristique. 
+				Maecenas placerat diam sit amet dui malesuada, 
+				nec varius risus posuere. Morbi aliquet sit amet ex a convallis. 
+				Donec odio velit, dignissim gravida hendrerit eget, ultricies eget metus. 
+				Fusce et molestie massa.
+					</p>
+				</div>
+				
+				<div class="box">
+					<h3>CSS styling</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean et libero dolor. Phasellus massa urna, 
+				lobortis congue tempus ac, imperdiet nec tellus. 
+				Nulla volutpat eu metus tempor tristique. 
+				Maecenas placerat diam sit amet dui malesuada, 
+				nec varius risus posuere. Morbi aliquet sit amet ex a convallis. 
+				Donec odio velit, dignissim gravida hendrerit eget, ultricies eget metus. 
+				Fusce et molestie massa.
+					</p>
+				</div>
+				
+				<div class="box">
+					<h3>Graphic desing</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean et libero dolor. Phasellus massa urna, 
+				lobortis congue tempus ac, imperdiet nec tellus. 
+				Nulla volutpat eu metus tempor tristique. 
+				Maecenas placerat diam sit amet dui malesuada, 
+				nec varius risus posuere. Morbi aliquet sit amet ex a convallis. 
+				Donec odio velit, dignissim gravida hendrerit eget, ultricies eget metus. 
+				Fusce et molestie massa.
+					</p>
+				</div>
+				
+			</div>
+		</section>
+	</body>
+</html>

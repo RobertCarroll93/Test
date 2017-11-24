@@ -1,0 +1,230 @@
+/* Colours of the site are based on the famous poster for the movie Pulp Fiction */
+body{
+	font-family: 'Courier', sanserif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+#siteName{
+	font-family:Kristen ITC;
+	margin-left:5%;
+	color:blue;
+}
+
+
+#logo{
+	margin-left:5%;
+}
+
+
+#wrapper{
+	width:80%;
+	margin: 0 auto;
+}
+
+
+
+#nav{
+	background-color: pink;
+	width: 100%;
+
+    display: block;
+    
+    margin: 0 auto;
+    padding: 0;
+	margin-top: 11px;
+}
+
+#nav li{
+	 margin-right: 4%;
+	 margin-left:4%;
+	
+    display:inline-flex;
+}
+
+#nav ul{
+	display:flex;
+	 margin-right: 5%;
+}
+
+
+
+/* The site is broken up into a number of divs such as .container below. This div has a div inside it also */
+.container{
+	width:100%;
+	overflow:hidden;
+	margin:auto;
+	background-color:lightblue;
+	
+}
+
+
+.content{
+	background-color:lightblue;
+	text-align:center;
+	border-radius: 25px;
+    background: #fce349;
+    padding: 10px; 
+	position: absolute;
+	top: 50%;
+    left: 40%;
+	
+}
+
+header{
+	background:lightblue;
+	color:#ffffff;
+	padding-top:20px;
+	min-height:80px;
+	
+		
+}
+
+header a {
+	color:#ffffff;
+	text-decoration:none;
+	font-size:16px;
+}
+/* This make the navigation options change to the below colour when it is hovered over */
+header a:hover{
+	color:blue;
+}
+
+header ul{
+	
+	width:100%;
+	height:10px;
+	
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #logo{
+	float:left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+
+#mainpic{
+	
+	float:left;
+	color:white;
+	width:100%;
+}
+
+#contactDetails{
+	float:right;
+	text-align:center;
+	padding-right:15%;
+}
+
+#map{
+	float:left;
+}
+
+#newArrivals{
+	font-family:Kristen ITC;
+	color:blue;
+	margin-left:5%;
+}
+
+
+#bottomPic{
+	background-color:lightblue;
+	margin-top:20px;
+	width:100%;
+	height:100%;
+	margin-bottom:20%;
+	
+	overflow:hidden;
+}
+
+section#bottomPic{
+	
+	/* delete if not used */
+	
+}
+
+#bottomPic .bottomPic{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:0px;
+	position: relative;
+
+
+}
+
+div.bottomPic{
+	width:30px;
+	height;40px;
+	
+}
+
+img.resize {
+	margin-right:4%;
+	margin-left:4%;
+	height:15%;
+	width:15%;
+}
+#text{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#message{
+font-size: 12px;
+width: 500px;
+height:100px;
+}
+
+footer{
+	padding:20px;
+	
+	color: blue;
+	background-color: pink;
+	text-align:center;
+}
+
+#nav ul{
+	background-color: pink;
+	width: 100%;
+
+    display: block;
+    
+    margin: 0 auto;
+    padding: 0;
+	margin-top: 11px;
+}
+
+
+/* https://stackoverflow.com/questions/43553538/javascript-slideshow-displaying-all-images 
+The .mySlides helps with the problem of all images appearing at once. The .mySlides:first makes an image appear when you first open the page
+*/
+
+.mySlides {
+   display: none;
+   min-height:300px;
+   max-height:400px;
+}
+
+/* This shows the first image when you first enter the site */
+
+.mySlides:first-child {
+   display: block;
+}
